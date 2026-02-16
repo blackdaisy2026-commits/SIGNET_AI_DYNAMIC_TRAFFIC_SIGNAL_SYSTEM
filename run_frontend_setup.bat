@@ -1,0 +1,6 @@
+@echo off
+echo Installing dependencies (this may take a few minutes)...
+call npm install --legacy-peer-deps
+echo Starting Frontend...
+npm run dev
+pause
